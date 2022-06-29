@@ -1,0 +1,111 @@
+[World Settings]
+world id             com.zepeto.me.zepeto.template.default
+version              0.1                 
+max clients          8                   
+orientation          vertical            
+disable invite       false               
+disable room list    false               
+disable private room false               
+
+[Build Manifest]
+[scenes]
+75 kb                assets/0_scenes/chapter1.unity
+[assets]
+13 kb                packages/zepeto.character.controller/runtime/_resources/images/touchpad_handle_base.png
+560 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/idle.anim
+2 kb                 packages/zepeto.character.controller/runtime/_resources/animations/ui/controller/touchpad_handle_off.anim
+4 kb                 packages/zepeto.buildit.wedding/firework machine.prefab
+71 kb                packages/zepeto.buildit.wedding/data/firework machine/data/wd_fireworkmachine.prefab
+296 kb               packages/zepeto.buildit.common/common/world_ap_commons/data/texture/ap_tile_006.png
+35 kb                packages/zepeto.character.controller/runtime/_resources/inputactions/zepetoinputcontrol.inputactions
+600 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/landingslight.anim
+4 mb                 assets/2_resources/dynamicstarrysky/material/camping_ground_sky_night 1.mat
+62 kb                packages/zepeto.character.controller/runtime/_resources/animations/base/action1.anim
+1 kb                 packages/zepeto.character.controller/runtime/_resources/prefabs/shadow/fxt_blobshadow.png
+4 kb                 packages/zepeto.buildit.wedding/carpet.prefab
+2 kb                 packages/zepeto.buildit.common/common/world_commons/data/texture/alphatexture_001.png
+2 kb                 assets/2_resources/meterials/floor.mat
+295 kb               packages/zepeto.character.controller/runtime/_resources/animatorcontroller/zepetoanimatorv2.controller
+1 mb                 packages/zepeto.buildit.city/data/apartment 1/data/sa_apartment_001.prefab
+1 mb                 packages/zepeto.character.controller/runtime/_resources/animations/gesture/4_ok.anim
+3 kb                 packages/zepeto.character.controller/runtime/_resources/animations/ui/controller/touchpad_handle_ziggle.anim
+1 mb                 packages/zepeto.character.controller/runtime/_resources/animations/base/walk.anim
+32 kb                packages/zepeto.buildit.wedding/data/carpet/data/wd_carpet.prefab
+828 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/moveturn.anim
+374 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/moverunfast.anim
+2 kb                 packages/zepeto.character.controller/runtime/_resources/animations/ui/controller/touchpad_handle_on.anim
+19 kb                assets/2_resources/dynamicstarrysky/texture/star_01.png
+16 kb                packages/zepeto.buildit.city/cafe.prefab
+12 kb                packages/zepeto.buildit.wedding/arch.prefab
+14 kb                packages/zepeto.buildit.city/data/apartment 2/data/sa_apartment_002_colider.prefab
+180 kb               packages/zepeto.buildit.wedding/data/chair/data/wd_chair.prefab
+1 mb                 packages/zepeto.character.controller/runtime/_resources/animations/base/v2/landingdeep.anim
+7 kb                 assets/2_resources/dynamicstarrysky/texture/star_02.png
+1 kb                 packages/zepeto.buildit.common/common/world_commons/data/texture/window_001.png
+416 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/moverun.anim
+1 mb                 packages/zepeto.character.controller/runtime/_resources/animations/base/jump_idle.anim
+2 kb                 packages/zepeto.buildit.common/common/world_commons/data/colortexture_001.mat
+1 mb                 packages/zepeto.character.controller/runtime/_resources/animations/base/jump_move.anim
+27 kb                packages/zepeto.character.controller/runtime/_resources/prefabs/uicontroller_touchpad_horizontal.prefab
+2 kb                 packages/zepeto.character.controller/runtime/_resources/animations/ui/controller/touchpad_handle_origin_off.anim
+7 kb                 packages/zepeto.character.controller/runtime/_resources/animatorcontroller/uicontrollertouchpadhandleorigin.controller
+546 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/landingroll.anim
+10 kb                packages/zepeto.buildit.wedding/data/arch/data/wd_arch_collider.prefab
+1 mb                 packages/zepeto.buildit.wedding/data/arch/data/wd_arch.prefab
+301 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/falling.anim
+62 kb                packages/zepeto.character.controller/runtime/_resources/animations/base/action2.anim
+4 kb                 packages/zepeto.buildit.wedding/vase mini2.prefab
+603 kb               packages/zepeto.buildit.city/data/convertible car/data/sa_convertible_001.prefab
+27 kb                packages/zepeto.character.controller/runtime/_resources/prefabs/uicontroller_touchpad_vertical.prefab
+17 kb                assets/2_resources/dynamicstarrysky/shaders/starrysky.shader
+5 kb                 packages/zepeto.character.controller/runtime/_resources/images/touchpad_handle_icon.png
+618 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/jumpidle.anim
+451 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/stamp.anim
+1 kb                 packages/com.unity.inputsystem/inputsystem/editor/icons/inputsystemuiinputmodule@64.png
+5 kb                 packages/zepeto.character.controller/runtime/_resources/images/touchpad_jump_icon.png
+4 kb                 packages/zepeto.buildit.wedding/chair.prefab
+7 kb                 packages/zepeto.character.controller/runtime/_resources/animatorcontroller/uicontrollertouchpadhandle.controller
+2 mb                 packages/zepeto.buildit.city/data/bag shop/data/sa_bagshop_001.prefab
+451 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/jumpdash.anim
+13 kb                packages/zepeto.buildit.city/convertible car.prefab
+186 kb               assets/2_resources/dynamicstarrysky/texture/moon-4.png
+2 kb                 packages/zepeto.buildit.common/common/world_commons/data/alpha_window_001.mat
+2 kb                 assets/2_resources/meterials/object.mat
+1 kb                 packages/zepeto.character.controller/runtime/_resources/camera/zepetocamera.prefab
+10 kb                packages/zepeto.buildit.city/apartment 2.prefab
+2 kb                 packages/zepeto.buildit.common/common/world_ap_commons/data/ap_tile_006.mat
+10 kb                packages/zepeto.buildit.city/apartment 1.prefab
+3 kb                 packages/zepeto.character.controller/runtime/_resources/prefabs/shadow/charactershadow.prefab
+461 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/movewalkfast.anim
+940 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/run.anim
+311 kb               packages/zepeto.buildit.wedding/data/vase mini2/data/wd_vase_02.prefab
+714 kb               packages/zepeto.buildit.city/data/cafe/data/sa_cafe.prefab
+14 kb                packages/zepeto.buildit.city/bag shop.prefab
+1 mb                 packages/zepeto.buildit.city/data/apartment 2/data/sa_apartment_002.prefab
+4 kb                 packages/zepeto.buildit.city/apartment 003.prefab
+12 kb                packages/zepeto.character.controller/runtime/_resources/images/touchpad_jump_base.png
+5 kb                 packages/zepeto.buildit.common/common/cooltime_commons/data/builditstandard.shader
+27 kb                packages/zepeto.buildit.common/common/world_commons/data/texture/colortexture_001.png
+442 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/jumpmove.anim
+14 kb                packages/zepeto.buildit.city/cafeteria.prefab
+62 kb                packages/zepeto.character.controller/runtime/_resources/animations/base/gesture.anim
+1 mb                 packages/zepeto.character.controller/runtime/_resources/animations/base/v2/movewalk.anim
+1 kb                 packages/zepeto.buildit.common/common/cooltime_commons/data/builditunlit.shader
+23 kb                packages/zepeto.buildit.city/data/apartment 1/data/sa_apartment_001_col.prefab
+18 kb                packages/zepeto.character.controller/runtime/_resources/animatorcontroller/zepetoanimator.controller
+2 kb                 packages/zepeto.character.controller/runtime/_resources/prefabs/shadow/fxt_blobshadow.mat
+2 kb                 packages/zepeto.character.controller/runtime/_resources/prefabs/eventsystem.prefab
+1014 kb              packages/zepeto.character.controller/runtime/_resources/animations/base/v2/idle.anim
+9 kb                 packages/zepeto.buildit.city/data/bag shop/data/sa_bagshop_001_colider.prefab
+603 kb               packages/zepeto.buildit.city/data/cafeteria/data/sa_cafeteria.prefab
+1 mb                 packages/zepeto.character.controller/runtime/_resources/animations/base/fall_end.anim
+2 kb                 packages/zepeto.character.controller/runtime/_resources/animations/ui/controller/touchpad_handle_origin_on.anim
+464 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/v2/jumpdouble.anim
+428 kb               packages/zepeto.character.controller/runtime/_resources/animations/base/hand_idle_01.anim
+31 kb                packages/com.unity.inputsystem/inputsystem/plugins/playerinput/defaultinputactions.inputactions
+1 mb                 packages/zepeto.buildit.city/data/apartment 003/data/sa_apartment_003.prefab
+13 kb                packages/zepeto.buildit.city/data/convertible car/data/sa_convertible_001_colider.prefab
+3 kb                 packages/zepeto.character.controller/runtime/_resources/animations/ui/controller/touchpad_handle_origin_ziggle.anim
+[resources]
+0 b                  assets/resources    
+[streamingAssets]

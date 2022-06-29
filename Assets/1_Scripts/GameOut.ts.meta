@@ -1,0 +1,42 @@
+fileFormatVersion: 2
+guid: 6cbbfff60df6d4194bb30bed0e480e6b
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: "{\"source\":\"\\\"use strict\\\";\\r\\nObject.defineProperty(exports,
+    \\\"__esModule\\\", { value: true });\\r\\nconst UnityEngine_1 = require(\\\"UnityEngine\\\");\\r\\nconst
+    ZEPETO_Character_Controller_1 = require(\\\"ZEPETO.Character.Controller\\\");\\r\\nconst
+    ZEPETO_Script_1 = require(\\\"ZEPETO.Script\\\");\\r\\nclass GameOut extends
+    ZEPETO_Script_1.ZepetoScriptBehaviour {\\r\\n    Start() {\\r\\n        //\uC81C\uD398\uD1A0
+    \uCE90\uB9AD\uD130\uAC00 \uC815\uC0C1\uC801\uC73C\uB85C \uC0DD\uC131\uB418\uB294\uC9C0
+    \uB9AC\uC2A4\uB108\uAC00 \uB4E3\uACE0\uC788\uB2E4\uAC00, \uADF8 \uB85C\uCEEC\uD50C\uB808\uC774\uC5B4\uB97C
+    this.zepetoCharacter \uBCC0\uC218\uC5D0 \uB123\uC74C\\r\\n        ZEPETO_Character_Controller_1.ZepetoPlayers.instance.OnAddedLocalPlayer.AddListener(()
+    => {\\r\\n            this.zepetoCharacter = ZEPETO_Character_Controller_1.ZepetoPlayers.instance.LocalPlayer.zepetoPlayer.character;\\r\\n       
+    });\\r\\n    }\\r\\n    OnTriggerEnter(collider) {\\r\\n        if (this.zepetoCharacter
+    == null || collider.gameObject != this.zepetoCharacter.gameObject) {\\r\\n           
+    return;\\r\\n        }\\r\\n        // Teleport\\r\\n        this.zepetoCharacter.Teleport(new
+    UnityEngine_1.Vector3(0, 0, 0), UnityEngine_1.Quaternion.identity);\\r\\n       
+    console.log(\\\"Game Out!\\\");\\r\\n    }\\r\\n}\\r\\nexports.default = GameOut;\\r\\n/*\\r\\n-
+    \uC810\uD504 \uD6C4 GameOut \uB2FF\uC558\uC744\uB54C -> \uC815\uC0C1\uC791\uB3D9\\r\\n-
+    \uAC77\uAE30 \uD6C4 GameOut \uB2FF\uC558\uC744\uB54C -> \uBC14\uB2E5\uB6AB\uACE0
+    \uC9C0\uB098\uAC10\\r\\ngithub \uBB38\uC758\uB97C \uBCF4\uB2C8 Animator \uAD00\uB828
+    \uBB38\uC81C\uB77C\uACE0 \uD588\uACE0 \uC774\uC288\uACE0\uCCE4\uB2E4\uACE0 \uD588\uB294\uB370
+    \uC5EC\uC804\uD788 \uC548\uB428\\r\\n\\n\uC544\uB798\uB85C \uD1B5\uACFC \uBABB\uD558\uB3C4\uB85D
+    \uBCBD\uB9CC\uB4DC\uB294\uAC83\uC73C\uB85C \uC784\uC2DC\uD574\uACB0\\r\\n*/ \\r\\n//#
+    sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiR2FtZU91dC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIkdhbWVPdXQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSw2Q0FBNEQ7QUFFNUQsNkVBQTRFO0FBQzVFLGlEQUFxRDtBQUVyRCxNQUFxQixPQUFRLFNBQVEscUNBQXFCO0lBS3RELEtBQUs7UUFDRCx3RUFBd0U7UUFDeEUsMkNBQWEsQ0FBQyxRQUFRLENBQUMsa0JBQWtCLENBQUMsV0FBVyxDQUFDLEdBQUUsRUFBRTtZQUN0RCxJQUFJLENBQUMsZUFBZSxHQUFHLDJDQUFhLENBQUMsUUFBUSxDQUFDLFdBQVcsQ0FBQyxZQUFZLENBQUMsU0FBUyxDQUFDO1FBQ3JGLENBQUMsQ0FBQyxDQUFDO0lBQ1AsQ0FBQztJQUVELGNBQWMsQ0FBQyxRQUFrQjtRQUM3QixJQUFHLElBQUksQ0FBQyxlQUFlLElBQUksSUFBSSxJQUFJLFFBQVEsQ0FBQyxVQUFVLElBQUksSUFBSSxDQUFDLGVBQWUsQ0FBQyxVQUFVLEVBQUM7WUFDdEYsT0FBTztTQUNWO1FBRUQsV0FBVztRQUNYLElBQUksQ0FBQyxlQUFlLENBQUMsUUFBUSxDQUFDLElBQUkscUJBQU8sQ0FBQyxDQUFDLEVBQUMsQ0FBQyxFQUFDLENBQUMsQ0FBQyxFQUFFLHdCQUFVLENBQUMsUUFBUSxDQUFDLENBQUM7UUFDdkUsT0FBTyxDQUFDLEdBQUcsQ0FBQyxXQUFXLENBQUMsQ0FBQztJQUM3QixDQUFDO0NBQ0o7QUFyQkQsMEJBcUJDO0FBRUQ7Ozs7OztFQU1FIn0=\",\"assetPath\":\"Assets/1_Scripts/GameOut.ts\",\"manifest\":{\"properties\":[],\"name\":\"GameOut\",\"description\":\"\"},\"isCompiled\":true}"
+  typescriptHash: 3e65234b1ac535fd29a71795f7583dce

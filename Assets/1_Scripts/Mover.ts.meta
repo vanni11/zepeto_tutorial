@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: a73fe0059740a4c42abfc01f2cb75fbe
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst UnityEngine_1 = require(\"UnityEngine\");\r\nconst
+    ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nclass Mover extends ZEPETO_Script_1.ZepetoScriptBehaviour
+    {\r\n    constructor() {\r\n        super(...arguments);\r\n        this.movingTime
+    = 1;\r\n        this.movingRangeX = 0;\r\n        this.movingRangeY = 0;\r\n       
+    this.movingRangeZ = 0;\r\n        this.delta = 0;\r\n        this.movingFlag
+    = true;\r\n    }\r\n    Update() {\r\n        this.delta += UnityEngine_1.Time.deltaTime;\r\n       
+    if (this.delta >= this.movingTime) {\r\n            this.delta = 0;\r\n           
+    this.movingFlag = !this.movingFlag;\r\n        }\r\n        if (this.movingFlag)
+    {\r\n            this.transform.Translate(this.movingRangeX * UnityEngine_1.Time.deltaTime,
+    this.movingRangeY * UnityEngine_1.Time.deltaTime, this.movingRangeZ * UnityEngine_1.Time.deltaTime);\r\n       
+    }\r\n        else {\r\n            this.transform.Translate(-1 * this.movingRangeX
+    * UnityEngine_1.Time.deltaTime, -1 * this.movingRangeY * UnityEngine_1.Time.deltaTime,
+    -1 * this.movingRangeZ * UnityEngine_1.Time.deltaTime);\r\n        }\r\n    }\r\n}\r\nexports.default
+    = Mover;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiTW92ZXIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJNb3Zlci50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLDZDQUFtQztBQUNuQyxpREFBcUQ7QUFFckQsTUFBcUIsS0FBTSxTQUFRLHFDQUFxQjtJQUF4RDs7UUFFVyxlQUFVLEdBQVcsQ0FBQyxDQUFDO1FBQ3ZCLGlCQUFZLEdBQVcsQ0FBQyxDQUFDO1FBQ3pCLGlCQUFZLEdBQVcsQ0FBQyxDQUFDO1FBQ3pCLGlCQUFZLEdBQVcsQ0FBQyxDQUFDO1FBQ3pCLFVBQUssR0FBVyxDQUFDLENBQUM7UUFDbEIsZUFBVSxHQUFZLElBQUksQ0FBQztJQWdCdEMsQ0FBQztJQWRHLE1BQU07UUFDRixJQUFJLENBQUMsS0FBSyxJQUFJLGtCQUFJLENBQUMsU0FBUyxDQUFDO1FBQzdCLElBQUcsSUFBSSxDQUFDLEtBQUssSUFBSSxJQUFJLENBQUMsVUFBVSxFQUFFO1lBQzlCLElBQUksQ0FBQyxLQUFLLEdBQUcsQ0FBQyxDQUFDO1lBQ2YsSUFBSSxDQUFDLFVBQVUsR0FBRyxDQUFDLElBQUksQ0FBQyxVQUFVLENBQUM7U0FDdEM7UUFFRCxJQUFHLElBQUksQ0FBQyxVQUFVLEVBQUU7WUFDaEIsSUFBSSxDQUFDLFNBQVMsQ0FBQyxTQUFTLENBQUMsSUFBSSxDQUFDLFlBQVksR0FBRyxrQkFBSSxDQUFDLFNBQVMsRUFBRSxJQUFJLENBQUMsWUFBWSxHQUFHLGtCQUFJLENBQUMsU0FBUyxFQUFFLElBQUksQ0FBQyxZQUFZLEdBQUcsa0JBQUksQ0FBQyxTQUFTLENBQUMsQ0FBQTtTQUN2STthQUFNO1lBQ0gsSUFBSSxDQUFDLFNBQVMsQ0FBQyxTQUFTLENBQUMsQ0FBQyxDQUFDLEdBQUcsSUFBSSxDQUFDLFlBQVksR0FBRyxrQkFBSSxDQUFDLFNBQVMsRUFBRSxDQUFDLENBQUMsR0FBRyxJQUFJLENBQUMsWUFBWSxHQUFHLGtCQUFJLENBQUMsU0FBUyxFQUFFLENBQUMsQ0FBQyxHQUFHLElBQUksQ0FBQyxZQUFZLEdBQUcsa0JBQUksQ0FBQyxTQUFTLENBQUMsQ0FBQTtTQUN0SjtJQUNMLENBQUM7Q0FFSjtBQXZCRCx3QkF1QkMifQ==","assetPath":"Assets/1_Scripts/Mover.ts","manifest":{"properties":[{"assembly":"mscorlib","name":"movingTime","type":"System.Single","isArray":false,"initValue":["1"],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"mscorlib","name":"movingRangeX","type":"System.Single","isArray":false,"initValue":["0"],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"mscorlib","name":"movingRangeY","type":"System.Single","isArray":false,"initValue":["0"],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"mscorlib","name":"movingRangeZ","type":"System.Single","isArray":false,"initValue":["0"],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"mscorlib","name":"delta","type":"System.Single","isArray":false,"initValue":["0"],"enumKeys":[],"enumValues":[],"attributes":[]},{"assembly":"mscorlib","name":"movingFlag","type":"System.Boolean","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"Mover","description":""},"isCompiled":true}'
+  typescriptHash: 5e845abcbef65522d0b075e1d4d5fe96
